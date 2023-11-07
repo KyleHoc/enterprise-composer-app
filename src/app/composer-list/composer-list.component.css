@@ -1,0 +1,10 @@
+/*Author: Kyle Hochdoerfer
+Title: composer-list.component.css
+Date: 11/06/23
+Description: CSS page for the composer list component*/
+
+.txtSearch {
+  width: 30%;
+  float: right;
+  margin-bottom: 5px;
+}

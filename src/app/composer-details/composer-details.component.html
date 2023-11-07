@@ -1,0 +1,20 @@
+<!--
+Author: Kyle Hochdoerfer
+Title: composer-details.component.html
+Date: 10/30/23
+Description: HTML page for the composer details component
+-->
+
+<!--List the composer's ID, name, and genre in a list-->
+<div class="row">
+  <div class="col-sm-12">
+    <ul class="list-group">
+      <li class="list-group-item">Composer ID: {{ composer.composerId }}</li>
+      <li class="list-group-item">Full name: {{ composer.fullName}}</li>
+      <li class="list-group-item">Genre: {{ composer.genre }}</li>
+    </ul>
+    <br />
+    <!--Display a link to page back to the composer list-->
+    <a routerLink="/composer-list" class="float-right">Return to Composers</a>
+  </div>
+</div>

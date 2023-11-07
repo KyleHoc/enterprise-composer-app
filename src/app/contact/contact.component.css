@@ -1,0 +1,13 @@
+/*
+Author: Kyle Hochdoerfer
+Title: contact.component.css
+Date: 10/25/23
+Description: CSS page for the contact component
+*/
+
+/*Set margin and font size for list-group items*/
+.list-group-item{
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 12%;
+}
