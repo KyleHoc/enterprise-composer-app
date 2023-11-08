@@ -14,22 +14,28 @@ import { ComposerDetailsComponent } from './composer-details/composer-details.co
 //Set up routing for the composer list, contact, and about pages
 const routes: Routes = [
   {
+    //Set the default route to the composer list component
     path: '',
     component: ComposerListComponent
   },
   {
+    //Create a non-default path to the composer-list component
     path: 'composer-list',
     component: ComposerListComponent
   },
   {
+    //Create a path to the composer details component, including an ID number to determine which
+    //  composer is navigated to
     path: 'composer-details/:composerId',
     component: ComposerDetailsComponent
   },
   {
+    //Create a path to the contact component
     path: 'contact',
     component: ContactComponent
   },
   {
+    //Create a path to the about component
     path: 'about',
     component: AboutComponent
   }
